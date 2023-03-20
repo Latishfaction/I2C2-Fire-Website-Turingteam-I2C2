@@ -1,0 +1,16 @@
+#index-background{
+    /* Background layout */
+    border: 2px solid red;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    background-color: red;
+    z-index: -1;
+
+    /* background image */
+    background-image: url("../images/bg gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
