@@ -1,5 +1,58 @@
+/* font weight
+    100 Thin
+    300 Light
+    400 Regular
+    500 Medium
+    900 Black
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+
+#main-heading-container{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 22%;
+    top: 27%;
+}
+#main-heading{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    color: #5D36CB;
+    mix-blend-mode: overlay;
+
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
 #index-background{
     /* Background layout */
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    background-color: red;
+    z-index: -2;
+
+    /* background image */
+    background-image: url("../images/bg gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#index-background-gif{
+/* Background layout */
     border: 2px solid red;
     height: 100vh;
     width: 100vw;
@@ -8,9 +61,12 @@
     background-color: red;
     z-index: -1;
 
+/* bg img */
     /* background image */
-    background-image: url("../images/bg gradient.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../images/nodes.gif");
+    background-repeat: repeat;
+    background-size: 80%;
     background-position: center;
+    mix-blend-mode: screen;
+
 }
